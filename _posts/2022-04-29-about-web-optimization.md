@@ -41,6 +41,7 @@ tags: Web
     그리고 하단에 보면 `DOMContentLoaded` 와 `Load` 시간이 각각 파란색, 빨간색으로 표시된다.
     
     ![chrome-dev-tools](https://user-images.githubusercontent.com/38097442/165792669-1f6955e5-bc1b-436e-bc3a-87bfc3a32456.png)
+    _Chrome 개발자 도구 네트워크 탭_
 
     그 외에도 Performance, Profiler, Lighthouse탭 등에서도 성능을 측정할 수 있다.  자세한 내용은 다른 포스트에서 다룰 예정이다. 
     
