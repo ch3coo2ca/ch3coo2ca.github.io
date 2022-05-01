@@ -2,6 +2,9 @@
 layout: post
 title: "TypeScript 유틸리티 타입"
 tags: TypeScript
+sitemap: 
+    changefreq : daily
+    priority : 0.8
 ---
 
 타입스크립트는 타입 변환을 용이하게 하는 몇 가지 유틸리티 타입을 제공한다. 예를 들어 A 타입의 부분 집합인 B 타입을 생성할 때 기존 타입을 재활용해서 생성할 때 유용하다.
