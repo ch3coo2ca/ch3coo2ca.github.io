@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2022-05-02 12:01:00
 title: "Github 블로그 SEO 설정하기 (feat. 구글 검색엔진)"
 tags: [SEO, Github Blog]
 ---
@@ -56,7 +57,7 @@ sitemap.xml은 **웹 사이트 내 존재하는 모든 페이지의 목록을 �
     ```
     
 3. `https://블로그 URL/sitemap.xml` 로 접속하여 파일 내용이 정상적으로 출력되는지 확인한다.
-![sitemap.xml](https://user-images.githubusercontent.com/38097442/166134373-68d5533a-f7e1-4032-b425-dc5bb5228c30.png)
+![sitemap.xml](https://user-images.githubusercontent.com/38097442/166186114-cca9af2d-d3ae-46f6-9a9d-c73408126a68.png)
 _https://ch3coo2ca.github.io/sitemap.xml_
 
 <br>
