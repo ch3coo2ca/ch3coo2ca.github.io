@@ -2,6 +2,7 @@
 layout: post
 date: 2022-05-02 12:01:00
 title: "Github 블로그 SEO 설정하기 (feat. 구글 검색엔진)"
+description: "Github 블로그가 구글 검색엔진에 검색되도록 설정해보자"
 tags: [SEO, Github Blog]
 ---
 
