@@ -148,7 +148,7 @@ _Google Search Console > 사이드 메뉴 > URL 검사 > 블로그 주소 입력
 <br>
 위 페이지에서 색인 등록 요청을 하고 약 16시간 지난 시점에 구글에 블로그 검색을 해봤다. 드디어 성공적으로 검색이 된다! 🎉🎉🎉
 
-![search blog url in google](https://user-images.githubusercontent.com/38097442/167114200-fef0b704-3af4-4378-b6c7-52515a5068f7.png)
+![search blog url in google](https://user-images.githubusercontent.com/38097442/167161707-d3a474ef-0971-4ec2-b220-fd48e3270db8.png)
 _구글에 다시 블로그 검색해 본 화면_
 
 수동으로 URL 등록 요청을 하면 각각의 페이지에 대해서 등록해줘야 하는 번거로움이 있다. 우선 메인 블로그는 검색이 잘 되니.. 구글이 다시 사이트맵 크롤링해갈 때까지 기다려볼 예정이다.
