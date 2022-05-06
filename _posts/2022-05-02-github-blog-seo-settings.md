@@ -3,6 +3,7 @@ layout: post
 date: 2022-05-02 12:01:00
 title: "Github 블로그 SEO 설정하기 (feat. 구글 검색엔진)"
 description: "Github 블로그가 구글 검색엔진에 검색되도록 설정해보자"
+lastmod: 2022-05-06 19:29:00
 tags: [SEO, Github Blog]
 ---
 
@@ -133,6 +134,24 @@ _URL 등록 완료 화면_
 제출이 완료되면 아래 화면에서 상태가 `성공` 이라고 나와야 되는데 오류가 나타난다. 처음에 sitemap.xml 오타낸채로 푸쉬했는데 갱신이 안되는 것 같다. 며칠 뒤에 데이터가 쌓이면 다시 확인해봐야겠다.
 
 ![sitemap error](https://user-images.githubusercontent.com/38097442/166136144-ab08d7c9-184e-4777-a7d9-a637e6563b3d.png)
+
+<br>
+
+![그렇게 사이트맵 제출하고 3일 넘게 지났다. . ](https://user-images.githubusercontent.com/38097442/167114166-7566e97d-0f5f-4854-ab58-976d3b294bf4.png)
+_그렇게 사이트맵 제출하고 3일 넘게 지났다. . ._
+
+4일이 지나도 갱신된 사이트맵을 크롤링해가지 않은 것 같다. ㅠㅠ 사이드메뉴에서 URL 검사를 클릭하고 블로그 주소를 입력해보았는데 아직 구글에 등록이 되어있지 않다고 나온다.  아래 화면에서 `색인 생성 요청` 버튼을 누르고 다시 기다려봐야겠다. 수동으로 색인 요청을 하면 **URL이 우선순위 크롤링 대기열에 추가**된다고 한다. 
+
+![Google Search Console > 사이드 메뉴 > URL 검사 > 블로그 주소 입력](https://user-images.githubusercontent.com/38097442/167114181-2708935e-a7d0-45a6-a381-c7e615378a6c.png)
+_Google Search Console > 사이드 메뉴 > URL 검사 > 블로그 주소 입력_
+
+<br>
+위 페이지에서 색인 등록 요청을 하고 약 16시간 지난 시점에 구글에 블로그 검색을 해봤다. 드디어 성공적으로 검색이 된다! 🎉🎉🎉
+
+![search blog url in google](https://user-images.githubusercontent.com/38097442/167114200-fef0b704-3af4-4378-b6c7-52515a5068f7.png)
+_구글에 다시 블로그 검색해 본 화면_
+
+수동으로 URL 등록 요청을 하면 각각의 페이지에 대해서 등록해줘야 하는 번거로움이 있다. 우선 메인 블로그는 검색이 잘 되니.. 구글이 다시 사이트맵 크롤링해갈 때까지 기다려볼 예정이다.
 
 <br>
 
