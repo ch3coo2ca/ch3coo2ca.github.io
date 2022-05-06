@@ -72,14 +72,14 @@ _https://ch3coo2ca.github.io/sitemap.xml_
 layout: post
 title: "TypeScript 유틸리티 타입"
 tags: TypeScript
-lastmode: 2022-05-01 16:00:00
+lastmod: 2022-05-01 16:00:00
 sitemap: 
     changefreq : daily
     priority : 0.8
 ---
 ```
 
-- `lastmode` : 마지막 수정일
+- `lastmod` : 마지막 수정일
 - `sitemap.changefreq` : 스크랩 주기
     - always, hourly, daily, weekly, monthly, yearly, never 값을 줄 수 있다.
 - `sitemap.priority` : 스크랩 우선순위
