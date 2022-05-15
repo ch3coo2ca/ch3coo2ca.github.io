@@ -1,21 +1,44 @@
 .pagination {
-  border-top: .5px solid $grey-2;
-  font-family: $serif-secondary;
+  border-top: 0.5px solid $grey-2;
+  font-family: $sans-serif;
   padding-top: 2rem;
   position: relative;
   text-align: center;
+  display: flex;
+  justify-content: center;
 
-  span {
+  .page {
     color: $default-shade;
     font-size: 1.1rem;
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &.active {
+      background-color: $default-shade;
+      color: white;
+    }
+
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+
+    &:not(.active):hover {
+      background-color: #f0f0eb;
+      transition: all 0.1s ease-in;
+    }
   }
 
   .top {
-    @include transition(all .3s ease-out);
+    @include transition(all 0.3s ease-out);
     color: $default-color;
     font-family: $sans-serif;
     font-size: 1.1rem;
-    opacity: .6;
+    opacity: 0.6;
 
     &:hover {
       opacity: 1;
@@ -23,13 +46,17 @@
   }
 
   .arrow {
-    @include transition(all .3s ease-out);
+    @include transition(all 0.3s ease-out);
     color: $default-color;
     position: absolute;
 
+    span {
+      font-size: 2rem;
+    }
+
     &:hover,
     &:focus {
-      opacity: .6;
+      opacity: 0.6;
       text-decoration: none;
     }
   }

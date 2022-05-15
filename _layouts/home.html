@@ -15,12 +15,37 @@ layout: default
 </div>
 
 <div class="pagination">
+  <!-- prev button -->
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+    <a
+      href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+      class="page left arrow"
+    >
+      <span class="material-symbols-outlined">
+        chevron_left
+      </span>
+    </a>
   {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
+  
+  <!-- pages -->
+  {% for i in (1..paginator.total_pages) %}
+    <a 
+      href="{{ site.baseurl }}/{% if i > 1%}page{{ i }}/{% endif %}"
+      class="page {% if i == paginator.page %} active {% endif %}"  
+    > 
+      <span>{{i}}</span>  
+    </a>
+  {% endfor %}
 
-  <span>{{ paginator.page }}</span>
+  <!-- next button -->
+  {% if paginator.next_page %}
+    <a
+      href="{{ paginator.next_page_path | prepend: site.baseurl }}"
+      class="page right arrow"
+    >
+      <span class="material-symbols-outlined">
+        chevron_right
+      </span>
+    </a>
+  {% endif %}
 </div>
