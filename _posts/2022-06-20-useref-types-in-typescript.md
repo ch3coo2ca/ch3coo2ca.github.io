@@ -23,7 +23,7 @@ interface MutableRefObject<T> {
 }
 
 interface RefObject<T> {
-    **readonly** current: T | null;
+    readonly current: T | null;
 }
 ```
 <br/>
@@ -35,13 +35,13 @@ useRef는 초깃값으로 넘어온 인자의 타입에 따라서 정의를 3가
 ### useRef<T>(initialValue: T): MutableRefObject<T>
 
 제네릭 타입 T와 초깃값이 T로 일치하는 경우, 리턴 타입은 `MutableRefObject<T>` 가 된다.
-ref 객체의 `**.current` 프로퍼티를 직접 변경**할 수 있다. 
+ref 객체의 **`.current` 프로퍼티를 직접 변경**할 수 있다. 
 
 <br/>
 
 ### useRef<T>(initialValue: T | null): RefObject<T>
 
-초깃값이 null인 경우, 리턴 타입은 `RefObject<T>` 로 ref 객체의 `**.current` 프로퍼티 값을 직접 변경할 수 없다**.
+초깃값이 null인 경우, 리턴 타입은 `RefObject<T>` 로 ref 객체의 **`.current` 프로퍼티 값을 직접 변경할 수 없다**.
 
 <br/>
 
